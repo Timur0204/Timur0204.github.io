@@ -1,0 +1,83 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  box-shadow: 0px 0px 5px gray;
+  gap: 15px;
+  width: 55vw;
+  padding: 15px 15px 15px 15px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 69%;
+}
+
+.cards-column {
+  display: flex;
+  gap: 15px;
+  text-align: center;
+}
+
+.first-card {
+  padding: 50px 15px 0px 15px;
+  box-shadow: 0px 0px 5px gray;
+  text-align: center;
+}
+
+.image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h5 {
+  color: gray;
+}
+
+.s-card {
+  box-shadow: 0px 0px 5px gray;
+  flex-grow: 1;
+}
+
+.f-card {
+  box-shadow: 0px 0px 5px gray;
+  flex-grow: 1;
+}
+
+.t-card {
+  box-shadow: 0px 0px 5px gray;
+  flex-grow: 1;
+}
+
+.number {
+  padding-top: 15px;
+  color: #40b98b;
+}
+
+.text {
+  padding-bottom: 20px;
+  color: gray;
+}
+
+.last-card {
+  box-shadow: 0px 0px 5px gray;
+  text-align: center;
+}
+
+.text-2 {
+  text-align: justify;
+  padding: 0 20px 0 20px;
+  color: gray;
+}
+
+button {
+  background-color: #40b98b;
+  color: white;
+  border: 2px solid white;
+  width: 70%;
+  padding: 7px 0 7px 0;
+}
