@@ -108,8 +108,16 @@ img {
   width: 50%;
 }
 
+img {
+  object-fit: cover;
+}
+
 @media (max-width: 978px) {
   .image {
     height: 300px;
+  }
+
+  .btn {
+    width: 100%;
   }
 }
