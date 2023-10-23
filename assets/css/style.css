@@ -1,7 +1,20 @@
 .container {
   max-width: 992px;
   min-width: 567px;
+
   margin: 0 auto;
+}
+
+.homename {
+  display: flex;
+}
+.navb {
+  text-decoration: none;
+}
+
+.home {
+  border-bottom: 3px solid rgb(228, 225, 225);
+  margin-bottom: 50px;
 }
 
 .maintext > a {
@@ -19,6 +32,10 @@
   background-position: center;
   width: 100%;
   height: 30vh;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .cardtwo {
@@ -27,6 +44,10 @@
   background-position: center;
   width: 100%;
   height: 30vh;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .cardthree {
@@ -35,6 +56,10 @@
   background-position: center;
   width: 100%;
   height: 30vh;
+  max-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
 
 .headergrid {
@@ -47,39 +72,40 @@
 footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 70px;
+  padding-top: 40px;
   gap: 20px;
 }
 
-.fcardone {
-  margin-bottom: 40px;
-}
-
-.fcardtwo {
-  margin-bottom: 40px;
-}
-
-.fcardthree {
-  margin-bottom: 40px;
-}
-
-.fcardfour {
-  margin-bottom: 40px;
-}
-
-.paddingcardone {
-  padding-top: 45px;
-}
-
-.paddingcardtwo {
-  padding-top: 67px;
-}
-
-.paddingcardthree {
-  padding-top: 67px;
+.fcard {
+  margin-bottom: 30px;
 }
 
 .error {
   position: relative;
   top: 12px;
+}
+
+.card {
+  max-width: 400px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.card-text {
+  text-align: center;
+  padding-top: 10px;
+}
+
+img {
+  min-height: 40vh;
+}
+
+@media (max-width: 978px) {
+  .image {
+    height: 300px;
+  }
 }
