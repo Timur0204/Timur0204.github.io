@@ -1,246 +1,97 @@
-.container {
-  max-width: 992px;
-  min-width: 567px;
-
-  margin: 0 auto;
+.road {
+  width: 1000px;
+  height: 1000px;
 }
 
-.homename {
-  display: flex;
-}
-.navb {
-  text-decoration: none;
-}
-
-.home {
-  border-bottom: 3px solid rgb(228, 225, 225);
-  margin-bottom: 50px;
-}
-
-.maintext > a {
-  color: gray;
-  text-decoration: none;
-}
-
-.image {
-  margin-top: -8px;
-}
-
-.cardone {
-  background-image: url(/assets/img/pic\ 3.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 30vh;
-  max-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
-.cardtwo {
-  background-image: url(/assets/img/pic\ 4.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 30vh;
-  max-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
-.cardthree {
-  background-image: url(/assets/img/pic\ 5.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 30vh;
-  max-height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
-.headergrid {
-  display: grid;
-  gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 20px;
-}
-
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-top: 40px;
-  gap: 20px;
-}
-
-.fcard {
-  margin-bottom: 30px;
-}
-
-.error {
+.car {
   position: relative;
-  top: 12px;
+  bottom: 160px;
+  left: 100px;
 }
 
-.card {
-  max-width: 400px;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  align-items: center;
-}
-
-.card-text {
-  text-align: center;
-}
-
-img {
-  min-height: 40vh;
-}
-
-.btn {
-  width: 50%;
-}
-
-img {
-  object-fit: cover;
-}
-
-.gridmain {
-  margin-top: 50px;
-  padding-top: 50px;
-  padding-bottom: 30px;
-  border-top: 2px solid rgb(206, 200, 200);
-  border-bottom: 2px solid rgb(206, 200, 200);
-  margin-bottom: 30px;
-}
-
-.gridtitle {
-  border-right: 2px solid rgb(206, 200, 200);
-  border-left: 2px solid rgb(206, 200, 200);
-}
-
-.amain {
-  text-decoration: none;
-}
-
-.avarege {
-  text-decoration: none;
-  border-bottom: 1px solid rgb(158, 156, 156);
-  width: 80%;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.avar {
-  text-decoration: none;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.end {
-  margin-bottom: -16px;
-}
-
-.centergrid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "aa b c d"
-    "e i l p"
-    "f j m q"
-    "g k n r"
-    "h . o s";
-}
-
-.aa {
-  grid-area: aa;
-}
-
-.b {
-  grid-area: b;
-}
-
-.c {
-  grid-area: c;
-}
-
-.d {
-  grid-area: d;
-}
-
-.e {
-  grid-area: e;
-}
-
-.f {
-  grid-area: f;
-}
-
-.g {
-  grid-area: g;
-}
-
-.h {
-  grid-area: h;
-}
-
-.i {
-  grid-area: i;
-}
-
-.j {
-  grid-area: j;
-}
-
-.k {
-  grid-area: k;
-}
-
-.l {
-  grid-area: l;
-}
-
-.m {
-  grid-area: m;
-}
-
-.n {
-  grid-area: n;
-}
-
-.o {
-  grid-area: o;
-}
-
-.p {
-  grid-area: p;
-}
-
-.q {
-  grid-area: q;
-}
-
-.r {
-  grid-area: r;
-}
-
-.s {
-  grid-area: s;
-}
-
-@media (max-width: 978px) {
-  .image {
-    height: 300px;
+@keyframes car {
+  0% {
+    bottom: 160px;
+    left: 100px;
   }
 
-  .btn {
-    width: 100%;
+  10% {
+    bottom: 160px;
+    left: 700px;
+    transform: rotate(0deg);
   }
+
+  20% {
+    bottom: 250px;
+    left: 810px;
+    transform: rotate(-90deg);
+  }
+
+  25% {
+    bottom: 810px;
+    left: 800px;
+    transform: rotate(-90deg);
+  }
+
+  30% {
+    bottom: 850px;
+    left: 800px;
+    transform: rotate(-90deg);
+  }
+
+  40% {
+    bottom: 920px;
+    left: 680px;
+    transform: rotate(-180deg);
+  }
+
+  50% {
+    bottom: 920px;
+    left: 150px;
+    transform: rotate(-180deg);
+  }
+
+  55% {
+    bottom: 920px;
+    left: 120px;
+    transform: rotate(-180deg);
+  }
+
+  65% {
+    bottom: 800px;
+    left: 60px;
+    transform: rotate(-270deg);
+  }
+
+  75% {
+    bottom: 300px;
+    left: 50px;
+    transform: rotate(-270deg);
+  }
+
+  80% {
+    bottom: 200px;
+    left: 50px;
+    transform: rotate(-270deg);
+  }
+
+  90% {
+    bottom: 160px;
+    left: 100px;
+    transform: rotate(-360deg);
+  }
+
+  100% {
+    bottom: 160px;
+    left: 80px;
+    transform: rotate(-360deg);
+  }
+}
+.car {
+  animation-name: car;
+  animation-duration: 12s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
